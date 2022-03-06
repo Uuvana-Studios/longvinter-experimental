@@ -6,7 +6,7 @@ UpdateServer () {
         echo "Server closed, now getting latest version"
         git restore .
         sleep 1
-        git pull "https://github.com/Uuvana-Studios/longvinter-linux-server.git" main
+        git pull "https://github.com/Uuvana-Studios/longvinter-experimental.git" main
         sleep 1
         echo "Starting server.."
         sudo chmod -R ugo+rwx ~/longvinter-linux-server/
