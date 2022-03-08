@@ -23,4 +23,3 @@ else
         echo "Change found, updating server.."
         UpdateServer
 fi
- 
