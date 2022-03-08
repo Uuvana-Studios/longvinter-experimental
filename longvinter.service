@@ -1,0 +1,14 @@
+[Unit]
+Description=Longvinter Server
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=nilsson
+ExecStart=sh /home/nilsson/longvinter-linux-server/LongvinterServer.sh
+
+[Install]
+WantedBy=multi-user.target
