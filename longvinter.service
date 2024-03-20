@@ -21,8 +21,8 @@ PrivateDevices=true
 NoNewPrivileges=true
 PrivateTmp=true
 InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found
-ReadWriteDirectories=/home/steam/longvinter-linux-server
-WorkingDirectory=/home/steam/longvinter-linux-server
+ReadWriteDirectories=/home/steam/server1
+WorkingDirectory=/home/steam/server1
 
 KillSignal=SIGCONT
 Sockets=longvinter.socket
