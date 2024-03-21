@@ -26,7 +26,7 @@ WorkingDirectory=/home/steam/server1
 
 KillSignal=SIGCONT
 Sockets=longvinter.socket
-ExecStart=/bin/sh -c "exec /home/steam/longvinter-linux-server/LongvinterServer.sh"
+ExecStart=/bin/sh -c "exec /home/steam/server1/LongvinterServer.sh"
 
 [Install]
 WantedBy=multi-user.target
